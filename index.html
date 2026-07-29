@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="S.W.E.E.P. - Stop Wasting Everything Except Pepe. The Ultimate Solana Degen Meme Coin.">
+    <title>$SWEEP - Stop Wasting Everything Except Pepe</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=Space+Grotesk:wght@700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="logo">$SWEEP</div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#tokenomics">Tokenomics</a>
+            <a href="#" id="how-to-buy-link">How to Buy</a>
+        </div>
+        <a href="https://pump.fun/" target="_blank" rel="noopener noreferrer" class="btn-primary nav-btn">Buy on
+            Pump.fun</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="$SWEEP">$SWEEP</h1>
+            <p class="subtitle"><strong>S</strong>top <strong>W</strong>asting <strong>E</strong>verything
+                <strong>E</strong>xcept <strong>P</strong>epe. The ultimate degen coin on Solana. 100% community-driven fair launch. Pure vibes.
+            </p>
+
+            <div class="contract-box">
+                <span id="ca-text">SOON</span>
+                <button id="copy-btn" class="btn-secondary">Copy CA</button>
+            </div>
+
+            <div class="social-links">
+                <a href="https://x.com/sweeppepe" target="_blank" rel="noopener noreferrer" class="social-btn"
+                    style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" style="width:1rem;height:1rem;fill:currentColor;">
+                        <path
+                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 22.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.008 5.976H5.078z">
+                        </path>
+                    </svg>
+                    Twitter
+                </a>
+                <a href="https://dexscreener.com/solana" target="_blank" rel="noopener noreferrer" class="social-btn"
+                    style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                    🦅 DexScreener
+                </a>
+            </div>
+        </div>
+        <div class="hero-image-container">
+            <!-- PLACEHOLDER FOR MEME IMAGE -->
+            <div class="meme-placeholder">
+                <img src="pepe.png" alt="Pepe Mascot" class="floating-mascot" style="border-radius: 1.25rem;">
+            </div>
+        </div>
+    </header>
+
+    <!-- Scrolling Marquee -->
+    <div class="marquee-container">
+        <div class="marquee-content">
+            <span>🚀 SOLANA 🚀 PEPE 🚀 DEGEN 🚀 $SWEEP 🚀 PUMP.FUN 🚀 JUST VIBES 🚀</span>
+            <span>🚀 SOLANA 🚀 PEPE 🚀 DEGEN 🚀 $SWEEP 🚀 PUMP.FUN 🚀 JUST VIBES 🚀</span>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="section glass-section">
+        <div class="section-content">
+            <h2>What is $SWEEP?</h2>
+            <p><strong>S</strong>top <strong>W</strong>asting <strong>E</strong>verything <strong>E</strong>xcept
+                <strong>P</strong>epe. We created the ultimate movement to sweep the Solana network for real degens.
+                Launched fairly on <strong>Pump.fun</strong>. 100% community-driven fair launch. Dev is based, liquidity is burned, and it's all about pure trading vibes.
+            </p>
+        </div>
+    </section>
+    <!-- Dashboard Section -->
+    <section id="dashboard" class="section">
+        <h2>Live Stats</h2>
+        <div class="dashboard-grid">
+            <div class="stat-box glass-card">
+                <h4>Market Cap</h4>
+                <p class="stat-value glitch" data-text="$TBA">$TBA</p>
+            </div>
+            <div class="stat-box glass-card">
+                <h4>Liquidity</h4>
+                <p class="stat-value highlight-green" style="color: #14F195;">100% Burned</p>
+            </div>
+            <div class="stat-box glass-card">
+                <h4>Holders</h4>
+                <p class="stat-value">Growing...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section id="tokenomics" class="section">
+        <h2>Tokenomics</h2>
+        <div class="tokenomics-grid">
+            <div class="card glass-card">
+                <h3>0%</h3>
+                <p>Buy / Sell Tax</p>
+            </div>
+            <div class="card glass-card">
+                <h3>100%</h3>
+                <p>LP Burned</p>
+            </div>
+            <div class="card glass-card">
+                <h3>Mint</h3>
+                <p>Revoked / Safe</p>
+            </div>
+            <!-- Tokenomics Section Ends Here -->
+        </div>
+    </section>
+    <!-- Roadmap Section -->
+    <section id="roadmap" class="section">
+        <h2>Roadmap</h2>
+        <div class="timeline">
+            <div class="timeline-item active">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <h3>Phase 1: Vibe Check</h3>
+                    <p>Fair launch on Pump.fun. Build the community, establish the memes, and survive the trenches.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <h3>Phase 2: Coming Soon</h3>
+                    <p>TBA</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <h3>Phase 3: Coming Soon</h3>
+                    <p>TBA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>$SWEEP is a meme coin with no intrinsic value or expectation of financial return. Just vibes.</p>
+        <p>&copy; 2024 $SWEEP on Solana.</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="buy-modal" class="modal-overlay">
+        <div class="modal-content glass-card">
+            <button id="close-modal" class="close-btn">&times;</button>
+            <h2>How to Buy $SWEEP</h2>
+            <ol class="buy-steps">
+                <li><strong>1. Get SOL</strong><br>Buy SOL and send it to your Phantom wallet.</li>
+                <li><strong>2. Go to Pump.fun</strong><br>Connect your wallet to Pump.fun.</li>
+                <li><strong>3. Paste CA</strong><br>Search for the $SWEEP Contract Address.</li>
+                <li><strong>4. Swap</strong><br>Buy $SWEEP on the bonding curve and join the degen sweep!</li>
+            </ol>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
