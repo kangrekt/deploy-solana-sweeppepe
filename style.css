@@ -174,13 +174,12 @@ h2 {
 
 /* Hero Section */
 .hero {
-    min-height: 100vh;
+    min-height: 80vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-content: center;
-    gap: 2.5rem;
-    padding: 0 10%;
-    padding-top: 5rem;
+    align-items: center;
+    gap: 4rem;
+    padding: 8rem 8% 4rem;
     position: relative;
 }
 
@@ -191,7 +190,7 @@ h2 {
 }
 
 .glitch {
-    font-size: 5rem;
+    font-size: clamp(2.5rem, 8vw, 5rem);
     font-weight: 900;
     margin-bottom: 1rem;
     position: relative;
@@ -355,10 +354,11 @@ h2 {
 }
 
 .card h3 {
-    font-size: 3.5rem;
+    font-size: clamp(2rem, 5vw, 3.5rem);
     color: var(--base-blue);
     margin-bottom: 1rem;
     text-shadow: 0 0 0.938rem var(--base-blue-glow);
+    word-break: break-word;
 }
 
 /* Footer */
@@ -492,14 +492,21 @@ footer {
     margin-top: 2rem;
 }
 
+.section-content h2 {
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    color: var(--base-blue);
+    margin-bottom: 1.5rem;
+    word-break: break-word;
+}
+
 .stat-box h4 {
-    font-size: 1.2rem;
+    font-size: clamp(1rem, 2vw, 1.2rem);
     color: var(--text-secondary);
     margin-bottom: 0.5rem;
 }
 
 .stat-value {
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 4vw, 2rem);
     font-weight: bold;
     font-family: 'Space Grotesk', sans-serif;
 }
