@@ -574,6 +574,10 @@ footer {
         justify-content: center;
     }
 
+    .contract-box {
+        width: 100%;
+    }
+
     .dashboard-grid {
         grid-template-columns: 1fr;
     }
