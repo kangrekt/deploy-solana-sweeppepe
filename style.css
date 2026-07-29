@@ -555,3 +555,30 @@ footer {
     color: var(--base-blue);
     margin-bottom: 1rem;
 }
+
+/* Mobile Responsive */
+@media (max-width: 900px) {
+    .hero {
+        grid-template-columns: 1fr;
+        min-height: auto;
+        padding: 8rem 5% 4rem 5%;
+        text-align: center;
+        gap: 4rem;
+    }
+
+    .hero-content {
+        align-items: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section {
+        padding: 4rem 5%;
+    }
+}
